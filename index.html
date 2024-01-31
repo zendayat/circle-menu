@@ -5,46 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
     <title>Document</title>
 </head>
 <body>
-    <div class=" align-middle justify-center items-center flex w-screen h-screen bg-black">
-        
-        
-        <div class="menu">
-            <input type="checkbox" id="toggle" />
-            <label id="show-menu" for="toggle">
-                <div class="btn">
-                    <i class="material-icons md-36 toggleBtn menuBtn">menu</i>
-                    <i class="material-icons md-36 toggleBtn closeBtn">close</i>
-                </div>
-                <div class="btn">
-                    <i class="material-icons md-36">photo_camera</i>
-                </div>
-                <div class="btn">
-                    <i class="material-icons md-36">photo</i>
-                </div>
-                <div class="btn">
-                    <i class="material-icons md-36">music_note</i>
-                </div>
-                <div class="btn">
-                    <i class="material-icons md-36">chat_bubble</i>
-                </div>
-                <div class="btn">
-                    <i class="material-icons md-36">settings</i>
-                </div>
-                <div class="btn">
-                    <i class="material-icons md-36">phone</i>
-                </div>
-                <div class="btn">
-                    <i class="material-icons md-36">cloud</i>
-                </div>
-                <div class="btn">
-                    <i class="material-icons md-36">videocam</i>
-                </div>
-            </label>
+    <div class="container">
+        <ul id="menu">
+            <!-- open-menu id for click event -->
+            <a class="menu-button icon-plus" id="open-menu" href="#menu" title="Show navigation"></a>
+            <a class="menu-button icon-minus" href="#0" title="Hide navigation"></a>
+            <li class="menu-item">
+                <a href="#menu">
+                    <span class="fa fa-github"></span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="#menu">
+                    <span class="fa fa-linkedin"></span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="#menu">
+                    <span class="fa fa-instagram"></span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="#menu">
+                    <span class="fa fa-twitter"></span>
+                </a>
+            </li>
+        </ul>
+    
+        <div class="content">
+            <div class="text">
+                <h3> Click circle!</h3>
+                <h6>Tada...!</h6>
+            </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

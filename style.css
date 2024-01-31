@@ -93,12 +93,3 @@ body {
     transform: rotate(-60deg) translateY(-150px) rotate(60deg);
     transition-delay: 0.3s;
 }
-
-.content {
-    position: absolute;
-    text-align: center;
-    margin: -10px 0 0 -30px;
-    top: 70%;
-    left: 50%;
-    font-size: 20px;
-}
